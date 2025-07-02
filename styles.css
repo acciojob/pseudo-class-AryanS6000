@@ -1,1 +1,19 @@
+#container{
+	margin : 20px;
+	position : relative;
+}
+#container::before {
+  content: "Special text before";
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+#container::after {
+  content: "Special text after";
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-top: 10px;
+}
 /*  your css code here. If applicable */
